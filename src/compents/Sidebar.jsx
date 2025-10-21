@@ -14,7 +14,7 @@ const Sidebar = () => {
     const SIDEBAR_LINKS = [
         {id:1, Path:"/", name:"Home", icon:<LuBox size={20}/>},
         {id:2, Path:"/members", name:"Members", icon:<LuUser size={20}/>},
-        {id:3, Path:"/doctors", name:"Doctors", icon:<FaUserMd size={20}/>},
+        {id:3, Path:"/patients", name:"Patients", icon:<FaUserMd size={20}/>},
     ]
     return (
     <div className="w-16 md:w-56 fixed left-0 top-0 z-10 border-r h-screen pt-8 px-4 bg-white">
