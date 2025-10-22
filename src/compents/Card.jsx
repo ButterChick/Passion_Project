@@ -8,8 +8,8 @@ const Card = ({ title, description, image }) => {
       <div className="p-5">
         <h2 className="text-xl font-semibold mb-2">{title}</h2>
         <p className="text-gray-600 mb-4">{description}</p>
-        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-            Learn More
+        <button className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
+            Add Patient
         </button>
       </div>
     </div>
