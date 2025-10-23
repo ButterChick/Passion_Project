@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <div className="p-5">
         <Card
-            title="Follow-up Appointment"
+            title="Existing Patient"
         />
         </div>
     </div>
