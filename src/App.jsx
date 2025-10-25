@@ -1,7 +1,7 @@
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
-import Layout from './compents/layout'
+import Layout from './compents/Layout'
 import Members from './pages/Members'
-import Home from './pages/home'
+import Home from './pages/Home'
 import Patients from './pages/Patients'
 
 function App() {
