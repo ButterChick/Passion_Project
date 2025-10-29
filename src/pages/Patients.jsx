@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "../compents/Table";
+import Card from "../compents/Card";
 
 const Patients = () => {
     return (
@@ -8,7 +9,14 @@ const Patients = () => {
             <div className="px-5 py-5">
                 <Table/>
             </div>
-            <p>In the Table there will be 2 notes, One to add Daily Notes and other to Get the discharge summary</p>
+            <div className="p-5">
+                <Card
+                    className = "rounded-lg"
+                    title="New Patient"
+                    action="Add Patient"
+                    link="/NewPatientForm"
+                    />
+            </div>
         </div>
     );
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 const Table = () => {
     const patients = [
-        { name: "Dhruv", status: "Stable", ward: "A1" },
-        { name: "Tayagi", status: "Critical", ward: "B2" },
+        { name: "Dhruv", status: "Diarrhea", ward: "A1" },
+        { name: "Tayagi", status: "Typhoid", ward: "B2" },
     ];
     return (
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -14,7 +14,7 @@ const Table = () => {
                             Patient Name
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Status
+                            Initial assessment
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Ward
